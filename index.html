@@ -1,0 +1,99 @@
+<html lang="zh-CN">
+    <head>
+        <meta charset="UTF-8">
+        <title>积分挑战赛 5</title>
+        <style>
+            h1 {
+                text-align: center;
+            }
+            p {
+                line-height: 0.75;
+            }
+            li {
+                line-height: 1.5;
+            }
+            code {
+                font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
+                padding: 0.1em 0.3em;
+                border-radius: 3px;
+                font-size: 0.8em;
+                transition: filter 0.2s ease;
+                background: var(--code-bg-light);
+                border: 1px solid var(--code-border-light);
+            }
+            :root {
+                --code-bg-light: #f0f0f0;
+                --code-border-light: #cccccc;
+            }
+            code:hover {
+                filter: brightness(1.03);
+            }
+            ol.chinese {
+                counter-reset: chinese-counter;
+                list-style: none;
+                padding-left: 0;
+            }
+            ol.chinese li {
+                counter-increment: chinese-counter;
+                position: relative;
+                padding-left: 2.5em;
+            }
+            ol.chinese li::before {
+                content: counter(chinese-counter, cjk-ideographic) "、";
+                position: absolute;
+                left: 0.5em;
+                font-weight: normal;
+            }
+            ol.chinese-bracketed {
+                counter-reset: chinese-counter;
+                list-style: none;
+                padding-left: 0;
+            }
+            ol.chinese-bracketed li {
+                counter-increment: chinese-counter;
+                position: relative;
+                padding-left: 4em;
+            }
+            ol.chinese-bracketed li::before {
+                content: "("counter(chinese-counter, cjk-ideographic) ")";
+                position: absolute;
+                left: 2em;
+                font-weight: normal;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>积分挑战赛 5</h1>
+        <p>积分挑战赛 5（原 第 5 次发放积分）为“积分挑战赛”系列的第 5 次活动。活动由琳（lusq）举办。</p>
+        <p>本场比赛出题人：琳（lusq） 验题人：able丨彻（枫原万叶） 负责人：琳（lusq）</p>
+        <p>比赛时间：待定</p>
+        <p>如无特殊情况，所有选手需遵守以下比赛规则及注意事项：</p>
+        <ol>
+            <li>本场比赛分为 X 部分，每部分 5 小题，共 X 小题，计 X 分（1 分=1 积分）</li>
+            <li>本场比赛<strong>允许</strong>使用任何方式完成，包括但不限于使用 AI、与他人讨论</li>
+            <li>题目中所有<code>行内代码块</code>里的内容为正则表达式，请选手自行了解相关内容</li>
+            <li>题目中所指的“字符”包括且仅包括所有大小写字母、数字、符号及汉字，以最小可选中单位为 1 字符</li>
+            <li>完成题目后，请通过手表微聊向比赛负责人提交题号及答案（允许拍照提交）</li>
+            <li>若无法完成题目，亦可通过手表微聊向比赛负责人询问提示（仅限标注“可询问提示”的题目）</li>
+            <li>每位选手每题仅限一次询问提示或提交答案，超出限制后的询问<strong>或</strong>提交不予受理</li>
+            <li>同一道题如有多个答案均满足题目要求，回答任意一个均可</li>
+            <li>每题仅第一位正确作答并提交者可获得积分奖励，之后提交者仅回复作答正误，不给予积分奖励</li>
+            <li>仅比赛期间内可通过该比赛获得积分</li>
+            <li>如有其他疑问，请联系比赛负责人</li>
+        </ol>
+        <p>为鼓励选手参与比赛，本场比赛设置以下几种福利：</p>
+        <ol class="chinese">
+            <li>答题福利（需自行联系比赛负责人领取）</li>
+            <ol class="chinese-bracketed">
+                <li>答对一部分中所有题目可获得该部分总分一半（向下取整）的积分</li>
+                <li>找到一部分中所有题目均可使用的<strong>最优</strong>做法可获得 20 积分</li>
+                <li>答对<strong>至少</strong> 5 道分数相同的题目可获得这些题目总分一半（向下取整）的积分（每位选手限一次）</li>
+            </ol>
+            <li>改题福利</li>
+            <ol class="chinese-bracketed">
+                <li>发现题目中表述不严谨或表述错误之处，经核实后可获得 10 积分</li>
+            </ol>
+        </ol>
+        <p>所有题目均为出题人原创，如有雷同，纯属巧合。</p>
+    </body>
+</html>
