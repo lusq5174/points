@@ -1,155 +1,131 @@
+<!DOCTYPE html>
 <html lang="zh-CN">
     <head>
         <meta charset="UTF-8">
+        <link rel="stylesheet" href="https://lusq5174.github.io/style.css">
         <title>积分挑战赛 5</title>
-        <style>
-            body {
-                background-color: #f5f5f5;
-                margin: 0px;
-            }
-            div.left {
-                border-right: 1px solid #cccccc;
-                padding: 10px 20px;
-                background-color: #ffffff;
-                height: calc(100% - 20px);
-                width: 230px;
-                position: fixed;
-                float: left;
-            }
-            div.right {
-                margin: 50px 0px 50px 330px;
-                border-radius: 20px;
-                padding: 10px 20px;
-                background-color: #ffffff;
-                width: calc(100% - 430px);
-                float: left;
-            }
-            div.list {
-                margin: 1px 0px;
-                border-radius: 5px;
-                padding: 1px 0px;
-            }
-            div.list:hover {
-                background-color: #f5f5f5;
-            }
-            div.list-now {
-                margin: 1px 0px;
-                border-radius: 5px;
-                padding: 1px 0px;
-                background-color: #f0f0f0;
-            }
-            a {
-                text-decoration: none;
-            }
-            p {
-                line-height: 0.75;
-            }
-            p.list {
-                margin: 9px 10px;
-                color: #000000;
-            }
-            li {
-                line-height: 1.5;
-            }
-            code {
-                font-family: 'SFMono-Regular', Consolas, 'Liberation Mono', Menlo, monospace;
-                font-size: 0.8em;
-                border: 1px solid #cccccc;
-                border-radius: 3px;
-                padding: 0.1em 0.3em;
-                background: #f0f0f0;
-                transition: filter 0.2s ease;
-            }
-            code:hover {
-                filter: brightness(1.03);
-            }
-            ol.chinese1 {
-                counter-reset: chinese-counter;
-                list-style: none;
-                padding-left: 0;
-            }
-            ol.chinese1 li {
-                counter-increment: chinese-counter;
-                position: relative;
-                padding-left: 2.5em;
-            }
-            ol.chinese1 li::before {
-                content: counter(chinese-counter, cjk-ideographic) "、";
-                position: absolute;
-                left: 0.5em;
-                font-weight: normal;
-            }
-            ol.chinese2 {
-                counter-reset: chinese-counter;
-                list-style: none;
-                padding-left: 0;
-            }
-            ol.chinese2 li {
-                counter-increment: chinese-counter;
-                position: relative;
-                padding-left: 4em;
-            }
-            ol.chinese2 li::before {
-                content: "("counter(chinese-counter, cjk-ideographic) ")";
-                position: absolute;
-                left: 2em;
-                font-weight: normal;
-            }
-        </style>
     </head>
-    <body>
+    <body class="points" style="user-select: none;">
         <div class="left">
             <h3>积分挑战赛 5</h3>
-            <p>目录</p>
-            <a href="https://lusq5174.github.io/points/">
+            <h4>目录</h4>
+            <a class="list" href="https://lusq5174.github.io/points/">
                 <div class="list-now">
                     <p class="list">首页</p>
                 </div>
             </a>
-            <a href="https://lusq5174.github.io/points/part1">
+            <a class="list" href="https://lusq5174.github.io/points/part1">
                 <div class="list">
-                    <p class="list">找不同 1（18 分）</p>
+                    <p class="list">写公式（12 分）</p>
                 </div>
             </a>
-            <a href="https://lusq5174.github.io/points/part2">
+            <a class="list" href="https://lusq5174.github.io/points/part2">
+                <div class="list">
+                    <p class="list">小天才知识题（18 分）</p>
+                </div>
+            </a>
+            <a class="list" href="https://lusq5174.github.io/points/part3">
+                <div class="list">
+                    <p class="list">找不同 1（19 分）</p>
+                </div>
+            </a>
+            <a class="list" href="https://lusq5174.github.io/points/part4">
+                <div class="list">
+                    <p class="list">DeepSeek 交互题（24 分）</p>
+                </div>
+            </a>
+            <a class="list" href="https://lusq5174.github.io/points/part5">
+                <div class="list">
+                    <p class="list">连字成句（25 分）</p>
+                </div>
+            </a>
+            <a class="list" href="https://lusq5174.github.io/points/part6">
+                <div class="list">
+                    <p class="list">找不同 2（28 分）</p>
+                </div>
+            </a>
+            <a class="list" href="https://lusq5174.github.io/points/part7">
+                <div class="list">
+                    <p class="list">找密码（34 分）</p>
+                </div>
+            </a>
+            <a class="list" href="https://lusq5174.github.io/points/part8">
                 <div class="list">
                     <p class="list">看图识曲（35 分）</p>
+                </div>
+            </a>
+            <a class="list" href="https://lusq5174.github.io/points/part9">
+                <div class="list">
+                    <p class="list">附加题（56 分）</p>
+                </div>
+            </a>
+            <a class="list" href="https://lusq5174.github.io/points/part10">
+                <div class="list">
+                    <p class="list">杂题</p>
+                </div>
+            </a>
+            <h4>附录</h4>
+            <a class="list" href="https://lusq5174.github.io/points/appendix">
+                <div class="list">
+                    <p class="list"> 附加题——例题</p>
+                </div>
+            </a>
+            <a class="list" href="https://lusq5174.github.io/points/appendix2">
+                <div class="list">
+                    <p class="list"> 参考答案</p>
                 </div>
             </a>
         </div>
         <div class="right">
             <h1>积分挑战赛 5</h1>
+            <p><mark>备用网址暂不可用，请使用主网址答题！</mark></p>
+            <p>这里是积分挑战赛 5 的备用网址。主网址：<a href="https://www.yuque.com/lusq5174/points5">www.yuque.com/lusq5174/points5</a></p>
             <p>积分挑战赛 5（原 第 5 次发放积分）为“积分挑战赛”系列的第 5 次活动。活动由琳（lusq）举办。</p>
-            <p>本场比赛出题人：琳（lusq） 验题人：able丨彻（枫原万叶） 负责人：琳（lusq）</p>
-            <p>比赛时间：待定</p>
-            <p>如无特殊情况，所有选手需遵守以下比赛规则及注意事项：</p>
+            <p>本场比赛出题人：琳（lusq） 验题人：挽星乄缘（枫原万叶） 负责人：琳（lusq）</p>
+            <p>比赛时间：2025-11-01至2025-11-15</p>
+            <p>如无特殊说明，所有选手需遵守以下比赛规则及注意事项：</p>
             <ol>
-                <li>本场比赛分为 X 部分，每部分 5 小题，共 X 小题，计 X 分（1 分=1 积分）</li>
+                <li>本场比赛分为 10 部分，除<a href="https://lusq5174.github.io/points/part10">杂题</a>外，每部分 5 小题，共 45 小题，计 X 分</li>
                 <li>本场比赛<strong>允许</strong>使用任何方式完成，包括但不限于使用 AI、与他人讨论</li>
-                <li>题目中所有<code>行内代码块</code>里的内容为正则表达式，请选手自行了解相关内容</li>
-                <li>题目中所指的“字符”包括且仅包括所有大小写字母、数字、符号及汉字，以最小可选中单位为 1 字符</li>
-                <li>完成题目后，请通过手表微聊向比赛负责人提交题号及答案（允许拍照提交）</li>
-                <li>若无法完成题目，亦可通过手表微聊向比赛负责人询问提示（仅限标注“可询问提示”的题目）</li>
-                <li>每位选手每题仅限一次询问提示<strong>或</strong>提交答案，超出限制后的询问或提交不予受理</li>
+                <li>题目中所有格式为正则表达式，请选手自行了解相关内容</li>
+                <li>题目中所指的“字符”包含且仅包含所有 ASCII 编码位于 33-126 的字符、全角标点符号及汉字，以最小可选中单位为 1 字符</li>
+                <li>题目中字符的“位置”指该字符所在文本中，其自身及之前所有字符的累计数量</li>
+                <li>对于题目中不同环境造成不同结果的内容，以<strong>语雀网页端</strong>为准</li>
+                <li>所有题目保证至少存在一种答案满足题目要求</li>
+                <li>完成题目后，请通过手表微聊向比赛负责人提交题号及答案</li>
+                <li>每位选手每题仅限一次提交答案，超出限制后的提交不予受理</li>
+                <li>对于任意需要提交的内容，允许以照片或网页的形式进行提交</li>
                 <li>同一道题如有多个答案均满足题目要求，回答任意一个均可</li>
-                <li>每题仅<strong>第一位</strong>正确作答并提交者可获得积分奖励，之后提交者仅回复作答正误，不给予积分奖励</li>
+                <li>每题<strong>第一位</strong>正确作答并提交者可获得与题目分值相等的积分奖励</li>
                 <li>仅比赛期间内可通过该比赛获得积分</li>
                 <li>如有其他疑问，请联系比赛负责人</li>
             </ol>
-            <p>为鼓励选手参与比赛，本场比赛设置以下几种福利：</p>
+            <p>为鼓励选手参与比赛，本场比赛设置以下几种福利，若无特殊说明，所有福利均可多次领取：</p>
             <ol class="chinese1">
                 <li>答题福利（需自行联系比赛负责人领取）</li>
                 <ol class="chinese2">
-                    <li>答对一部分中所有题目可获得该部分总分一半（向下取整）的积分</li>
-                    <li>找到一部分中所有题目均可使用的<strong>最优</strong>做法可获得 20 积分</li>
-                    <li>答对<strong>至少</strong> 5 道分数相同的题目可获得这些题目总分一半（向下取整）的积分（每位选手限一次）</li>
+                    <li>答对一部分中所有题目可获得该部分总分一半（向下取整）的积分（每部分限一次）</li>
+                    <li>找到可以在不直接获取答案的情况下，于 5 分钟之内做出一部分中所有题目的做法可获得 20 积分（每部分限一次）</li>
+                    <li>答对<strong>至少</strong> 5 道分数相同的题目可获得对应题目总分一半（向下取整）的积分（每位选手限一次）</li>
                 </ol>
                 <li>改题福利</li>
-                <ol class="chinese2">
-                    <li>发现题目中表述不严谨或表述错误之处，经核实后可获得 10 积分</li>
-                </ol>
+                <div style="padding-left: 2em;">
+                    <p>发现题目中表述不严谨或表述错误之处，经核实后可获得 10 积分</p>
+                </div>
+                <li>出题福利</li>
+                <div style="padding-left: 2em;">
+                    <p>选手在比赛过程中可对其他选手出题</p>
+                    <p>进行出题时，需提供完整题面、答案及解析（可选提供提示），且须满足以下所有要求：</p>
+                    <div style="padding-left: 0.3em;">
+                        <p style="margin-top: 10px;">·带有一定整活性质</p>
+                        <p>·不允许涉及冷门知识点，具体界限由比赛负责人把控</p>
+                        <p>·对于提供提示的题目，可以在没有提示的情况下做出</p>
+                        <p style="margin-bottom: 10px;">·对于非思考 / 知识型题目，至少存在一种方法可以在不直接获取答案的情况下，于 3 分钟内做出</p>
+                    </div>
+                    <p>出题后，我们会对题目质量与难度综合评分，并将题目加入<a href="https://lusq5174.github.io/points/part10">杂题</a>部分，出题选手可获得评分 2 倍的积分奖励</p>
+                </div>
             </ol>
-            <p>所有题目均为出题人原创，如有雷同，纯属巧合。</p>
+            <p>除<a href="https://lusq5174.github.io/points/part10">杂题</a>外，所有题目均为出题人原创，如有雷同，纯属巧合。</p>
         </div>
     </body>
 </html>
